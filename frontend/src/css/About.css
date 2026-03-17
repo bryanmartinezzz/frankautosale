@@ -1,0 +1,11 @@
+.headName {
+    text-align: center;
+}
+
+#aboutP{
+    display: flex;
+    flex-direction: column;
+    gap :1.5 rem;
+    padding: 2rem;
+    
+}
