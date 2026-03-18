@@ -5,11 +5,16 @@
   justify-content: space-between;
   align-items: center;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
 }
 
 .navbar-brand {
   font-size: 1.5rem;
   font-weight: bold;
+  font-family: "Soria";
+    color:#faf9f5
+
+
 }
 
 .navbar-links {
@@ -18,11 +23,13 @@
 }
 
 .nav-link {
-  font-size: 1rem;
+  font-size: 1.2rem;
   padding: 0.5rem 1rem;
   border-radius: 4px;
   transition: background-color 0.2s;
-  color:slateblue
+  color:#faf9f5;
+  font-family: "Soria";
+  
 }
 
 .nav-link:hover {

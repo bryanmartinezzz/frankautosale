@@ -1,6 +1,6 @@
 import React from "react";
 import "../css/Home.css"
-import React, {useState, useEffect} from "react";
+import {useState, useEffect} from "react";
 
 
 const slidesCustomers = [
@@ -31,19 +31,23 @@ function Home(){
     useEffect(() =>{
         const timer = setInterval(() =>{
             setCurrent((prev)=> (prev+1) % slidesCars.length);
-        }, 3500); // makes the time to switch images around 3.5 seconds
+        }, 2500); // makes the time to switch images around 3.5 seconds
         return () => clearInterval(timer);
     },[]);
 
-    
+
     return(
 <div id = "homeP">
-    <section id = "background-header"> 
-        <h1 className = "fontHome">Francisco </h1>
+    <section id = "background-header"
+        style={{backgroundImage: `url(${slidesCars[current]})`}}
+    >
 
-        <h1 className = "fontHome">Autosale</h1>
+        <h1 className = "fontHome">Frank <br></br> <br></br> <br></br> Autosale</h1>
+       
     </section>
-        <p> test</p>
+    <section id = "main-section">
+        
+    </section>
 
 </div>
 

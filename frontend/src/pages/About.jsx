@@ -17,7 +17,6 @@ function About(){
             <hr></hr>
             <p> </p>
             <section id = "reviews">
-                <h2>My Reviews:</h2>
                 
             </section>
 

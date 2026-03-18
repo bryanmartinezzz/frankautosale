@@ -1,11 +1,26 @@
 .fontHome{
 
-    font-family: objektiv-mk1, sans-serif;
+    font-family:"Soria", serif ;
     font-style: normal;
     font-weight: 700;
 
     text-align: center;
-    margin: 1.5rem;
+    margin-top: 8.5rem;
+
+    color: white;
+}
+
+#background-header{
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    transition: background-image 1s ease-in-out;
+    height: 820px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+
 }
 
 
