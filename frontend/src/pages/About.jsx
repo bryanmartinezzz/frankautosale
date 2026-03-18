@@ -10,7 +10,7 @@ function About(){
             <hr></hr>
             <p>Hola!</p>
             <section id = "socials">
-                <h2 id ="aboutHeaders">Find me on Social Media and View my Listings!:</h2>
+                <h2 id ="aboutHeaders">Social Media and Listings:</h2>
                 <a href = "https://tiktok.com/@solo19663" target = "_blank" rel="noreferrer" ><img src = "./img/tiktok-64.png"/></a>
                 <a href ="https://www.facebook.com/marketplace/profile/100026588288002/" target = "_blank" rel = "noreferrer">Facebook Marketplace</a>
             </section> 
